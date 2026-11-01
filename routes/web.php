@@ -49,6 +49,12 @@ Route::prefix('services')->group(function () {
 
 // 8 City Geo-Targeted Location Pages
 Route::get('/detective-agency-in-{city}', [CityController::class, 'show'])->name('cities.show');
+Route::redirect('/pune', '/detective-agency-in-pune', 301);
+Route::redirect('/mumbai', '/detective-agency-in-mumbai', 301);
+Route::redirect('/indore', '/detective-agency-in-indore', 301);
+Route::redirect('/ahmedabad', '/detective-agency-in-ahmedabad', 301);
+Route::redirect('/bangalore', '/detective-agency-in-bengaluru', 301);
+Route::redirect('/bengaluru', '/detective-agency-in-bengaluru', 301);
 
 // Case Studies
 Route::prefix('case-studies')->group(function () {

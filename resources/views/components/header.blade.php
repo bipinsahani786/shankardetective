@@ -216,25 +216,20 @@
         </nav>
 
         <!-- Right Action CTAs: High-Converting & Perfectly Spaced -->
-        <div class="hidden sm:flex items-center gap-4 shrink-0">
-            <!-- Sleek Phone Link -->
+        <div class="hidden sm:flex items-center gap-3 shrink-0">
+            <!-- Direct Call Pill -->
             <a href="tel:{{ config('agency.phone') }}"
-               class="hidden xl:flex items-center gap-2.5 text-slate-700 hover:text-blue-700 px-3 py-1.5 rounded-xl transition-colors whitespace-nowrap group">
-                <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-blue-50 text-blue-700 border border-blue-100 group-hover:bg-blue-100 transition-colors">
-                    <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
-                    </svg>
-                </span>
-                <span class="leading-tight text-left">
-                    <span class="block text-[10px] uppercase font-bold tracking-wider text-slate-500">Confidential Desk</span>
-                    <span class="block text-xs font-bold text-slate-900 group-hover:text-blue-700">{{ config('agency.phone_display', '+91 9004145251') }}</span>
-                </span>
+               class="inline-flex items-center gap-2 rounded-xl border border-slate-300 bg-white px-3.5 py-2 text-xs sm:text-sm font-semibold text-slate-800 shadow-xs hover:border-blue-600 hover:text-blue-700 transition-colors whitespace-nowrap">
+                <svg class="h-4 w-4 text-blue-600 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                </svg>
+                <span>Call Detective</span>
             </a>
 
             <!-- Primary Consultation Button -->
             <a href="{{ route('consultation') }}"
                @click.prevent="$dispatch('open-consultation-modal')"
-               class="inline-flex items-center gap-2.5 rounded-xl bg-gradient-to-r from-blue-700 to-blue-800 px-5 py-2.5 text-xs sm:text-sm font-bold text-white shadow-md shadow-blue-700/20 hover:from-blue-800 hover:to-blue-900 hover:shadow-lg transition-all duration-200 whitespace-nowrap cursor-pointer">
+               class="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-blue-700 to-blue-800 px-4 sm:px-5 py-2 text-xs sm:text-sm font-bold text-white shadow-md shadow-blue-700/20 hover:from-blue-800 hover:to-blue-900 hover:shadow-lg transition-all duration-200 whitespace-nowrap cursor-pointer">
                 <span>Free Consultation</span>
                 <svg class="h-4 w-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
