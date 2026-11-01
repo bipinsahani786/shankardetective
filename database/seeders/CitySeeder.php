@@ -41,7 +41,7 @@ class CitySeeder extends Seeder
                 ],
                 'office_address' => '6, Vijay Nagar, Near Domino\'s, Indore, Madhya Pradesh - 452010',
                 'phone' => '+91 9004145251',
-                'email' => 'info@deepdetective.com',
+                'email' => 'info@deeptracedetective.com',
                 'map_embed_url' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.336496814324!2d75.8912!3d22.7533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396302af40300001%3A0x6b53dbd7beec8757!2sVijay%20Nagar%2C%20Indore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin',
                 'local_faq' => [
                     [
@@ -92,7 +92,7 @@ class CitySeeder extends Seeder
                 ],
                 'office_address' => 'Senapati Bapat Road, Shivaji Nagar, Pune, Maharashtra - 411016',
                 'phone' => '+91 9004145251',
-                'email' => 'info@deepdetective.com',
+                'email' => 'info@deeptracedetective.com',
                 'map_embed_url' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121059.04367980314!2d73.7929267!3d18.5246165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin',
                 'local_faq' => [
                     [
@@ -143,7 +143,7 @@ class CitySeeder extends Seeder
                 ],
                 'office_address' => 'Bandra Kurla Complex (BKC), Bandra East, Mumbai, Maharashtra - 400051',
                 'phone' => '+91 9004145251',
-                'email' => 'info@deepdetective.com',
+                'email' => 'info@deeptracedetective.com',
                 'map_embed_url' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609823277!2d72.741098!3d19.0821978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin',
                 'local_faq' => [
                     [
@@ -194,7 +194,7 @@ class CitySeeder extends Seeder
                 ],
                 'office_address' => 'SG Highway, Bodakdev, Ahmedabad, Gujarat - 380054',
                 'phone' => '+91 9004145251',
-                'email' => 'info@deepdetective.com',
+                'email' => 'info@deeptracedetective.com',
                 'map_embed_url' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117498.44111364539!2d72.4839815!3d23.0204978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin',
                 'local_faq' => [
                     [
@@ -245,7 +245,7 @@ class CitySeeder extends Seeder
                 ],
                 'office_address' => 'Residency Road, Ashok Nagar, Bengaluru, Karnataka - 560025',
                 'phone' => '+91 9004145251',
-                'email' => 'info@deepdetective.com',
+                'email' => 'info@deeptracedetective.com',
                 'map_embed_url' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.8865390924!2d77.4908522!3d12.95396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin',
                 'local_faq' => [
                     [
@@ -286,7 +286,7 @@ class CitySeeder extends Seeder
                 'local_landmarks' => ['MP Nagar', 'Arera Colony', 'Bittan Market', 'Kolar Road', 'Hoshangabad Road', 'Shahpura'],
                 'office_address' => 'MP Nagar Zone II, Bhopal, Madhya Pradesh - 462011',
                 'phone' => '+91 9004145251',
-                'email' => 'info@deepdetective.com',
+                'email' => 'info@deeptracedetective.com',
                 'map_embed_url' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117362.47648375836!2d77.3402772!3d23.2584857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c428f8fd68fbd%3A0x2155716d572d4f8!2sBhopal%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin',
                 'local_faq' => [
                     [
@@ -314,7 +314,7 @@ class CitySeeder extends Seeder
                 'local_landmarks' => ['Connaught Place', 'Cyber City Gurgaon', 'Noida Sector 62', 'South Extension', 'Dwarka'],
                 'office_address' => 'Barakhamba Road, Connaught Place, New Delhi - 110001',
                 'phone' => '+91 9004145251',
-                'email' => 'info@deepdetective.com',
+                'email' => 'info@deeptracedetective.com',
                 'map_embed_url' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.83923192776!2d77.0688975!3d28.5272803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin',
                 'local_faq' => [
                     [
@@ -338,7 +338,7 @@ class CitySeeder extends Seeder
                 'local_landmarks' => ['C-Scheme', 'Malviya Nagar', 'Vaishali Nagar', 'Mansarovar', 'Tonk Road', 'Raja Park'],
                 'office_address' => 'Ashok Nagar, C-Scheme, Jaipur, Rajasthan - 302001',
                 'phone' => '+91 9004145251',
-                'email' => 'info@deepdetective.com',
+                'email' => 'info@deeptracedetective.com',
                 'map_embed_url' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227748.38256244795!2d75.6504696!3d26.8854479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4adf4c57e281%3A0xce1c63a0cf22e09!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin',
                 'local_faq' => [
                     [

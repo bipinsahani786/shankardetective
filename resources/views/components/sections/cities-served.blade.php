@@ -11,10 +11,10 @@
             <p class="mt-2 text-sm text-slate-600">{{ $subtitle }}</p>
         </div>
 
-        <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
             @foreach(config('agency.top_cities') as $c)
                 <a href="{{ route('cities.show', $c['slug']) }}"
-                   class="group rounded-2xl border border-slate-200 bg-slate-50/70 p-6 shadow-xs hover:bg-white hover:border-blue-500 hover:shadow-card-hover hover-lift transition-all flex flex-col justify-between reveal stagger-{{ $loop->iteration }}">
+                   class="group rounded-2xl border border-slate-200 bg-slate-50/70 p-5 sm:p-6 shadow-xs hover:bg-white hover:border-blue-500 hover:shadow-card-hover hover-lift transition-all flex flex-col justify-between reveal stagger-{{ $loop->iteration }}">
                     <div>
                         <div class="flex items-center justify-between mb-3">
                             <span class="text-[10px] font-bold uppercase text-slate-400">{{ $c['state'] }}</span>

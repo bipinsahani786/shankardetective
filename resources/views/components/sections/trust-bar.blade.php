@@ -1,6 +1,6 @@
-<section class="border-y border-slate-200 bg-white py-4 shadow-xs">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5 text-center reveal">
+<section class="border-y border-slate-200 bg-white py-3 sm:py-4 shadow-xs">
+    <div class="mx-auto max-w-7xl px-3 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 sm:gap-4 text-center reveal">
             <!-- Badge 1 -->
             <div class="flex items-center justify-center gap-2.5 p-2 stagger-1 reveal">
                 <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-blue-50 text-blue-700">

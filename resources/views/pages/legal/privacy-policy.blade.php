@@ -36,7 +36,7 @@
 
                 <div>
                     <h2 class="font-serif text-lg font-bold text-slate-900 mb-2">5. Data Protection Officer (DPO) Contact</h2>
-                    <p>For any privacy queries, grievance redressal, or data erasure requests, please contact our Data Protection Officer at: <a href="mailto:info@deepdetective.com" class="text-blue-600 underline font-medium">info@deepdetective.com</a> or via postal correspondence to our registered headquarters at <strong>6, Vijay Nagar, Near Domino's, Indore, Madhya Pradesh - 452010</strong>.</p>
+                    <p>For any privacy queries, grievance redressal, or data erasure requests, please contact our Data Protection Officer at: <a href="mailto:info@deeptracedetective.com" class="text-blue-600 underline font-medium">info@deeptracedetective.com</a> or via postal correspondence to our registered headquarters at <strong>6, Vijay Nagar, Near Domino's, Indore, Madhya Pradesh - 452010</strong>.</p>
                 </div>
             </div>
         </div>

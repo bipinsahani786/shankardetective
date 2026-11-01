@@ -14,9 +14,9 @@
             </p>
         </div>
 
-        <div class="grid grid-cols-2 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
             <!-- Stat 1 -->
-            <div class="rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-card hover:border-blue-500 hover:shadow-card-hover hover-lift transition-all reveal stagger-1">
+            <div class="rounded-2xl border border-slate-200 bg-white p-5 sm:p-6 text-center shadow-card hover:border-blue-500 hover:shadow-card-hover hover-lift transition-all reveal stagger-1">
                 <span class="block font-serif text-3xl sm:text-4xl lg:text-4xl font-extrabold text-blue-700" data-counter="100" data-suffix="+">
                     100+
                 </span>
@@ -29,7 +29,7 @@
             </div>
 
             <!-- Stat 2 -->
-            <div class="rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-card hover:border-blue-500 hover:shadow-card-hover hover-lift transition-all reveal stagger-2">
+            <div class="rounded-2xl border border-slate-200 bg-white p-5 sm:p-6 text-center shadow-card hover:border-blue-500 hover:shadow-card-hover hover-lift transition-all reveal stagger-2">
                 <span class="block font-serif text-3xl sm:text-4xl lg:text-4xl font-extrabold text-blue-700" data-counter="12" data-suffix="+ Years">
                     12+ Years
                 </span>
@@ -42,7 +42,7 @@
             </div>
 
             <!-- Stat 3 -->
-            <div class="rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-card hover:border-blue-500 hover:shadow-card-hover hover-lift transition-all reveal stagger-3">
+            <div class="rounded-2xl border border-slate-200 bg-white p-5 sm:p-6 text-center shadow-card hover:border-blue-500 hover:shadow-card-hover hover-lift transition-all reveal stagger-3">
                 <span class="block font-serif text-3xl sm:text-4xl lg:text-4xl font-extrabold text-emerald-600" data-counter="100" data-suffix="%">
                     100%
                 </span>
@@ -55,7 +55,7 @@
             </div>
 
             <!-- Stat 4 -->
-            <div class="rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-card hover:border-blue-500 hover:shadow-card-hover hover-lift transition-all reveal stagger-4">
+            <div class="rounded-2xl border border-slate-200 bg-white p-5 sm:p-6 text-center shadow-card hover:border-blue-500 hover:shadow-card-hover hover-lift transition-all reveal stagger-4">
                 <span class="block font-serif text-2xl sm:text-3xl lg:text-3xl font-extrabold text-amber-600">
                     Verified Proof
                 </span>

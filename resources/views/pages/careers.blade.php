@@ -14,7 +14,7 @@
         cta-primary-text="Explore Open Positions"
         cta-primary-url="#positions"
         cta-secondary-text="Direct HR Contact"
-        cta-secondary-url="mailto:info@deepdetective.com"
+        cta-secondary-url="mailto:info@deeptracedetective.com"
     />
 
     <!-- Section 3: Trust Bar -->
@@ -39,7 +39,7 @@
                             <h3 class="font-serif text-lg font-bold text-slate-900">Senior Field Verification Operative</h3>
                             <span class="text-xs text-blue-600 font-semibold">Indore (HQ) / Bhopal / Delhi NCR • Full-Time</span>
                         </div>
-                        <a href="mailto:info@deepdetective.com?subject=Application:%20Field%20Verification%20Operative" class="inline-block rounded-xl bg-blue-600 px-5 py-2 text-xs font-bold uppercase text-white hover:bg-blue-700 transition-colors">
+                        <a href="mailto:info@deeptracedetective.com?subject=Application:%20Field%20Verification%20Operative" class="inline-block rounded-xl bg-blue-600 px-5 py-2 text-xs font-bold uppercase text-white hover:bg-blue-700 transition-colors">
                             Apply via Email
                         </a>
                     </div>
@@ -55,7 +55,7 @@
                             <h3 class="font-serif text-lg font-bold text-slate-900">Cyber Forensics & OSINT Analyst</h3>
                             <span class="text-xs text-blue-600 font-semibold">Indore / Remote • Full-Time</span>
                         </div>
-                        <a href="mailto:info@deepdetective.com?subject=Application:%20Cyber%20Forensics%20Analyst" class="inline-block rounded-xl bg-blue-600 px-5 py-2 text-xs font-bold uppercase text-white hover:bg-blue-700 transition-colors">
+                        <a href="mailto:info@deeptracedetective.com?subject=Application:%20Cyber%20Forensics%20Analyst" class="inline-block rounded-xl bg-blue-600 px-5 py-2 text-xs font-bold uppercase text-white hover:bg-blue-700 transition-colors">
                             Apply via Email
                         </a>
                     </div>
@@ -71,7 +71,7 @@
                             <h3 class="font-serif text-lg font-bold text-slate-900">Legal Researcher & Asset Document Specialist</h3>
                             <span class="text-xs text-blue-600 font-semibold">Indore • Full-Time</span>
                         </div>
-                        <a href="mailto:info@deepdetective.com?subject=Application:%20Legal%20Researcher" class="inline-block rounded-xl bg-blue-600 px-5 py-2 text-xs font-bold uppercase text-white hover:bg-blue-700 transition-colors">
+                        <a href="mailto:info@deeptracedetective.com?subject=Application:%20Legal%20Researcher" class="inline-block rounded-xl bg-blue-600 px-5 py-2 text-xs font-bold uppercase text-white hover:bg-blue-700 transition-colors">
                             Apply via Email
                         </a>
                     </div>

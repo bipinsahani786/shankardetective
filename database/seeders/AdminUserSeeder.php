@@ -11,7 +11,7 @@ class AdminUserSeeder extends Seeder
     public function run(): void
     {
         User::firstOrCreate(
-            ['email' => 'info@deepdetective.com'],
+            ['email' => 'info@deeptracedetective.com'],
             [
                 'name' => 'Chief Investigator (Admin)',
                 'password' => Hash::make('password123'),

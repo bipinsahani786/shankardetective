@@ -51,7 +51,7 @@ class PostResource extends Resource
                     ->image(),
                 TextInput::make('author_name')
                     ->required()
-                    ->default('Shankar Investigation Team'),
+                    ->default('Deep Trace Directorate'),
                 TextInput::make('author_title')
                     ->required()
                     ->default('Senior Case Investigator'),

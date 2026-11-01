@@ -23,37 +23,37 @@
             <!-- Left Text Content -->
             <div class="lg:col-span-7 text-center lg:text-left reveal-left">
                 <!-- Trust Pill Badge -->
-                <div class="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50/80 px-4 py-1.5 text-xs font-bold text-blue-800 mb-5 shadow-xs">
-                    <span class="flex h-2 w-2 rounded-full bg-blue-600 radar-ring"></span>
-                    <span>{!! $badge !!}</span>
-                    <span class="text-slate-400">|</span>
-                    <span class="text-amber-700">Indore HQ</span>
+                <div class="inline-flex max-w-full items-center gap-1.5 sm:gap-2 rounded-full border border-blue-200 bg-blue-50/90 px-3 sm:px-4 py-1 text-[11px] sm:text-xs font-bold text-blue-800 mb-4 sm:mb-5 shadow-xs">
+                    <span class="flex h-2 w-2 rounded-full bg-blue-600 shrink-0"></span>
+                    <span class="truncate">{!! $badge !!}</span>
+                    <span class="hidden min-[380px]:inline text-slate-300">•</span>
+                    <span class="text-amber-700 whitespace-nowrap shrink-0 hidden min-[380px]:inline">Indore HQ</span>
                 </div>
 
                 <!-- Main H1 Heading -->
-                <h1 class="font-serif text-3xl sm:text-5xl lg:text-5xl font-extrabold tracking-tight text-slate-900 leading-[1.15]">
+                <h1 class="font-serif text-2xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-slate-900 leading-[1.2] sm:leading-[1.15]">
                     {!! $title !!}
                 </h1>
 
                 <!-- Subtitle -->
-                <p class="mt-5 text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                <p class="mt-4 sm:mt-5 text-sm sm:text-base lg:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto lg:mx-0">
                     {{ $subtitle }}
                 </p>
 
                 <!-- Action CTAs -->
-                <div class="mt-8 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                <div class="mt-6 sm:mt-8 flex flex-col sm:flex-row items-stretch sm:items-center justify-center lg:justify-start gap-3 sm:gap-4 w-full">
                     <a href="{{ $primaryUrl }}"
                        @if(str_contains($primaryUrl, 'consultation')) @click.prevent="$dispatch('open-consultation-modal')" @endif
-                       class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 rounded-xl bg-blue-700 px-7 py-3.5 text-sm font-bold text-white shadow-md transition-all duration-300 hover:bg-blue-800 hover:shadow-lg hover:scale-[1.02] btn-shimmer cursor-pointer">
-                        <svg class="h-5 w-5 text-amber-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                       class="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl bg-blue-700 px-6 py-3.5 text-xs sm:text-sm font-bold text-white shadow-md transition-all duration-300 hover:bg-blue-800 hover:shadow-lg hover:scale-[1.02] btn-shimmer cursor-pointer text-center">
+                        <svg class="h-4 w-4 sm:h-5 sm:w-5 text-amber-300 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                         </svg>
                         <span>{{ $ctaPrimaryText }}</span>
                     </a>
 
                     <a href="{{ $secondaryUrl }}"
-                       class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 rounded-xl border border-slate-300 bg-white px-7 py-3.5 text-sm font-bold text-slate-800 shadow-xs transition-all duration-300 hover:border-blue-600 hover:text-blue-700 hover:bg-blue-50/50">
-                        <svg class="h-5 w-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                       class="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl border border-slate-300 bg-white px-6 py-3.5 text-xs sm:text-sm font-bold text-slate-800 shadow-xs transition-all duration-300 hover:border-blue-600 hover:text-blue-700 hover:bg-blue-50/50 text-center">
+                        <svg class="h-4 w-4 sm:h-5 sm:w-5 text-blue-600 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                         </svg>
                         <span>{{ $ctaSecondaryText }}</span>

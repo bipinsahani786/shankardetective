@@ -66,8 +66,10 @@
             <span class="mt-1 text-[11px] font-bold uppercase tracking-tight">WhatsApp</span>
         </a>
 
-        <!-- Consultation Form -->
-        <a href="{{ route('consultation') }}" class="flex flex-col items-center justify-center text-slate-700 transition-colors hover:text-blue-700">
+        <!-- Consultation Form / Modal Trigger -->
+        <a href="{{ route('consultation') }}"
+           @click.prevent="$dispatch('open-consultation-modal')"
+           class="flex flex-col items-center justify-center text-slate-700 transition-colors hover:text-blue-700 cursor-pointer">
             <svg class="h-5 w-5 text-amber-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
             </svg>

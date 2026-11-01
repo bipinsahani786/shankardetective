@@ -9,7 +9,7 @@ return [
     'phone_display' => env('AGENCY_PHONE_DISPLAY', '+91 9004145251'),
     'whatsapp' => env('AGENCY_WHATSAPP', '919004145251'),
     'whatsapp_message' => env('AGENCY_WHATSAPP_MSG', 'Hello Deep Trace Detective team, I require a confidential consultation.'),
-    'email' => env('AGENCY_EMAIL', 'info@deepdetective.com'),
+    'email' => env('AGENCY_EMAIL', 'info@deeptracedetective.com'),
     'domain' => 'deeptracedetective.com',
     'principal_detective' => 'Senior Case Directorate',
     'founding_year' => 2014,

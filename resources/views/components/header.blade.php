@@ -48,30 +48,31 @@
 
 <!-- Main Sticky Header -->
 <header x-data="{ mobileOpen: false, servicesOpen: false, scrolled: false }"
-        @scroll.window="scrolled = (window.pageYOffset > 20)"
+        @scroll.window="scrolled = (window.pageYOffset > 10)"
         :class="scrolled ? 'bg-white/98 backdrop-blur-md shadow-md border-b border-slate-200' : 'bg-white border-b border-slate-200/90'"
-        class="sticky top-0 z-40 w-full transition-all duration-300">
-    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8 h-20">
+        class="sticky top-0 z-40 w-full transition-all duration-300"
+        style="position: -webkit-sticky; position: sticky; top: 0;">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-3 sm:px-6 lg:px-8 h-16 sm:h-20 gap-2">
         <!-- Brand Logo Lockup -->
-        <a href="{{ route('home') }}" class="flex items-center gap-3.5 shrink-0 group focus:outline-none py-1">
-            <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-blue-700 via-blue-800 to-slate-900 text-white shadow-md transition-transform duration-200 group-hover:scale-105 border border-blue-500/30">
+        <a href="{{ route('home') }}" class="flex items-center gap-2 sm:gap-3.5 shrink min-w-0 group focus:outline-none py-1">
+            <span class="flex h-9 w-9 sm:h-11 sm:w-11 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-blue-700 via-blue-800 to-slate-900 text-white shadow-md transition-transform duration-200 group-hover:scale-105 border border-blue-500/30">
                 <!-- Deep Trace Emblem -->
-                <svg class="h-6 w-6 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <svg class="h-5 w-5 sm:h-6 sm:w-6 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <circle cx="11" cy="11" r="7"/>
                     <path d="M21 21l-4.35-4.35"/>
                     <circle cx="11" cy="11" r="3" fill="#D97706" stroke="none"/>
                 </svg>
             </span>
-            <div class="leading-tight">
-                <div class="flex items-center gap-1.5">
-                    <span class="font-serif text-xl sm:text-2xl font-extrabold tracking-tight text-slate-900 group-hover:text-blue-700 transition-colors whitespace-nowrap">
+            <div class="leading-tight min-w-0">
+                <div class="flex items-center gap-1 sm:gap-1.5 flex-nowrap">
+                    <span class="font-serif text-sm min-[360px]:text-base sm:text-xl lg:text-2xl font-extrabold tracking-tight text-slate-900 group-hover:text-blue-700 transition-colors whitespace-nowrap">
                         DEEP TRACE
                     </span>
-                    <span class="font-serif text-xl sm:text-2xl font-extrabold tracking-tight text-blue-700 whitespace-nowrap">
+                    <span class="font-serif text-sm min-[360px]:text-base sm:text-xl lg:text-2xl font-extrabold tracking-tight text-blue-700 whitespace-nowrap">
                         DETECTIVE
                     </span>
                 </div>
-                <span class="hidden sm:block text-[10px] font-bold uppercase tracking-wider text-slate-500 mt-0.5 whitespace-nowrap">
+                <span class="hidden md:block text-[10px] font-bold uppercase tracking-wider text-slate-500 mt-0.5 whitespace-nowrap">
                     Confidential Verification & Risk Advisory • Indore HQ
                 </span>
             </div>
@@ -240,12 +241,12 @@
         <!-- Mobile Menu Toggle Button -->
         <button type="button"
                 @click="mobileOpen = !mobileOpen"
-                class="lg:hidden rounded-xl border border-slate-200 bg-slate-50 p-2 text-slate-700 hover:text-blue-700 focus:outline-none"
+                class="lg:hidden shrink-0 rounded-xl border border-slate-200 bg-slate-50 p-1.5 sm:p-2 text-slate-700 hover:text-blue-700 focus:outline-none transition-colors"
                 aria-label="Toggle navigation menu">
-            <svg x-show="!mobileOpen" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg x-show="!mobileOpen" class="h-5 w-5 sm:h-6 sm:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
-            <svg x-show="mobileOpen" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="display: none;">
+            <svg x-show="mobileOpen" class="h-5 w-5 sm:h-6 sm:w-6 text-rose-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="display: none;">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
             </svg>
         </button>
@@ -259,7 +260,7 @@
          x-transition:leave="transition ease-in duration-150"
          x-transition:leave-start="opacity-100 translate-y-0"
          x-transition:leave-end="opacity-0 -translate-y-4"
-         class="lg:hidden border-b border-slate-200 bg-white px-4 py-6 shadow-xl space-y-4"
+         class="lg:hidden border-b border-slate-200 bg-white px-3 sm:px-6 py-4 sm:py-5 shadow-2xl space-y-4 max-h-[calc(100vh-4.5rem)] overflow-y-auto w-full"
          style="display: none;">
         
         <!-- Mobile Top Contact Info -->
