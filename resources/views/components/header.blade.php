@@ -88,15 +88,21 @@
 
             <!-- Services Mega-Menu Dropdown -->
             <div class="relative" @mouseenter="servicesOpen = true" @mouseleave="servicesOpen = false" @click.outside="servicesOpen = false">
-                <button type="button"
-                        @click="servicesOpen = !servicesOpen"
-                        class="flex items-center gap-1.5 py-2 text-[15px] font-semibold transition-colors whitespace-nowrap {{ request()->is('services*') ? 'text-blue-700 font-bold' : 'text-slate-700 hover:text-blue-700' }}"
-                        :aria-expanded="servicesOpen">
-                    <span>Services</span>
-                    <svg class="h-4 w-4 transition-transform duration-200 text-slate-400" :class="servicesOpen ? 'rotate-180 text-blue-700' : ''" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                    </svg>
-                </button>
+                <div class="flex items-center gap-1">
+                    <a href="{{ route('services.index') }}"
+                       class="py-2 text-[15px] font-semibold transition-colors whitespace-nowrap {{ request()->is('services*') ? 'text-blue-700 font-bold' : 'text-slate-700 hover:text-blue-700' }}">
+                        Services
+                    </a>
+                    <button type="button"
+                            @click="servicesOpen = !servicesOpen"
+                            class="p-1 text-slate-500 hover:text-blue-700 focus:outline-none"
+                            :aria-expanded="servicesOpen"
+                            aria-label="Toggle Services Mega Menu">
+                        <svg class="h-4 w-4 transition-transform duration-200" :class="servicesOpen ? 'rotate-180 text-blue-700' : ''" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                </div>
 
                 <!-- Mega Menu Box -->
                 <div x-show="servicesOpen"
@@ -282,7 +288,39 @@
         <!-- Navigation Links -->
         <nav class="flex flex-col space-y-2 text-sm font-semibold divide-y divide-slate-100">
             <a href="{{ route('home') }}" class="text-slate-800 hover:text-blue-700 py-2">Home</a>
-            <a href="{{ route('services.index') }}" class="text-slate-800 hover:text-blue-700 py-2">All 24 Investigation Services</a>
+            
+            <!-- Mobile Services with Quick Links -->
+            <div class="py-2 space-y-2">
+                <div class="flex items-center justify-between">
+                    <a href="{{ route('services.index') }}" class="text-slate-800 hover:text-blue-700 font-bold">
+                        All 24 Investigation Services
+                    </a>
+                    <a href="{{ route('services.index') }}" class="text-[11px] text-blue-700 font-bold">
+                        View All &rarr;
+                    </a>
+                </div>
+                <div class="grid grid-cols-2 gap-1.5 pt-1 text-xs font-medium">
+                    <a href="{{ route('services.show', 'pre-matrimonial-investigation') }}" class="p-2 rounded-lg bg-slate-50 text-slate-700 hover:bg-blue-50 hover:text-blue-700 border border-slate-200/60 truncate">
+                        • Pre-Matrimonial
+                    </a>
+                    <a href="{{ route('services.show', 'post-matrimonial-investigation') }}" class="p-2 rounded-lg bg-slate-50 text-slate-700 hover:bg-blue-50 hover:text-blue-700 border border-slate-200/60 truncate">
+                        • Post-Matrimonial
+                    </a>
+                    <a href="{{ route('services.show', 'corporate-investigation') }}" class="p-2 rounded-lg bg-slate-50 text-slate-700 hover:bg-blue-50 hover:text-blue-700 border border-slate-200/60 truncate">
+                        • Corporate Fraud
+                    </a>
+                    <a href="{{ route('services.show', 'business-due-diligence') }}" class="p-2 rounded-lg bg-slate-50 text-slate-700 hover:bg-blue-50 hover:text-blue-700 border border-slate-200/60 truncate">
+                        • Due Diligence
+                    </a>
+                    <a href="{{ route('services.show', 'asset-tracing') }}" class="p-2 rounded-lg bg-slate-50 text-slate-700 hover:bg-blue-50 hover:text-blue-700 border border-slate-200/60 truncate">
+                        • Asset Tracing
+                    </a>
+                    <a href="{{ route('services.show', 'cyber-crime-digital-forensics') }}" class="p-2 rounded-lg bg-slate-50 text-slate-700 hover:bg-blue-50 hover:text-blue-700 border border-slate-200/60 truncate">
+                        • Cyber Forensics
+                    </a>
+                </div>
+            </div>
+
             <a href="{{ route('about') }}" class="text-slate-800 hover:text-blue-700 py-2">About Deep Trace</a>
             <a href="{{ route('case-studies.index') }}" class="text-slate-800 hover:text-blue-700 py-2">Case Studies</a>
             <a href="{{ route('how-we-work') }}" class="text-slate-800 hover:text-blue-700 py-2">How We Work (5-Step Protocol)</a>

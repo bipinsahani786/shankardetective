@@ -57,21 +57,22 @@
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 @foreach($posts as $post)
-                    <article class="rounded-3xl border border-slate-200 bg-white p-7 shadow-xs flex flex-col justify-between hover:border-blue-500 hover:shadow-card-hover hover:-translate-y-1 transition-all">
+                    <article class="group relative rounded-3xl border border-slate-200 bg-white p-7 shadow-xs flex flex-col justify-between hover:border-blue-500 hover:shadow-card-hover hover:-translate-y-1 transition-all cursor-pointer">
+                        <!-- Stretched Link to Post -->
+                        <a href="{{ route('blog.show', $post->slug) }}" class="absolute inset-0 z-10" aria-label="{{ $post->title }}"></a>
+
                         <div>
                             <div class="flex items-center justify-between mb-4">
                                 @if($post->category)
-                                    <a href="{{ route('blog.category', $post->category->slug) }}" class="rounded bg-blue-50 px-2.5 py-0.5 text-[10px] font-bold uppercase text-blue-800 border border-blue-200 hover:bg-blue-100">
+                                    <a href="{{ route('blog.category', $post->category->slug) }}" class="relative z-20 rounded bg-blue-50 px-2.5 py-0.5 text-[10px] font-bold uppercase text-blue-800 border border-blue-200 hover:bg-blue-100 transition-colors">
                                         {{ $post->category->name }}
                                     </a>
                                 @endif
                                 <span class="text-[11px] text-slate-500 font-mono">{{ $post->reading_time_minutes }} Min Read</span>
                             </div>
 
-                            <h2 class="font-serif text-lg font-bold text-slate-900 mb-3 leading-snug">
-                                <a href="{{ route('blog.show', $post->slug) }}" class="hover:text-blue-700 transition-colors">
-                                    {{ $post->title }}
-                                </a>
+                            <h2 class="font-serif text-lg font-bold text-slate-900 group-hover:text-blue-700 transition-colors mb-3 leading-snug">
+                                {{ $post->title }}
                             </h2>
 
                             <p class="text-xs text-slate-600 leading-relaxed line-clamp-3">
@@ -81,10 +82,10 @@
 
                         <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs">
                             <span class="text-[11px] text-slate-500 font-medium">{{ $post->author_name }}</span>
-                            <a href="{{ route('blog.show', $post->slug) }}" class="font-bold text-blue-700 hover:text-blue-800 flex items-center gap-1">
+                            <span class="font-bold text-blue-700 group-hover:text-blue-800 flex items-center gap-1">
                                 <span>Read Full Article</span>
-                                <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
-                            </a>
+                                <svg class="h-3.5 w-3.5 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                            </span>
                         </div>
                     </article>
                 @endforeach

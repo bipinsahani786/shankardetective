@@ -23,6 +23,8 @@ class SettingResource extends Resource
 {
     protected static ?string $model = Setting::class;
 
+    protected static string|\UnitEnum|null $navigationGroup = 'Agency System';
+
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedCog6Tooth;
 
     protected static ?string $navigationLabel = 'Social Links & Settings';
@@ -31,7 +33,7 @@ class SettingResource extends Resource
 
     protected static ?string $pluralModelLabel = 'Social Links & Settings';
 
-    protected static ?int $navigationSort = 10;
+    protected static ?int $navigationSort = 1;
 
     protected static ?string $recordTitleAttribute = 'label';
 

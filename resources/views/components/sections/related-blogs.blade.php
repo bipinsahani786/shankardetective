@@ -27,7 +27,10 @@
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             @foreach($blogList as $post)
-                <article class="rounded-3xl border border-slate-200 bg-white p-7 shadow-xs hover:border-blue-500 hover:shadow-card-hover transition-all flex flex-col justify-between">
+                <article class="group relative rounded-3xl border border-slate-200 bg-white p-7 shadow-xs hover:border-blue-500 hover:shadow-card-hover hover:-translate-y-1 transition-all flex flex-col justify-between cursor-pointer">
+                    <!-- Stretched Link -->
+                    <a href="{{ route('blog.show', $post->slug) }}" class="absolute inset-0 z-10" aria-label="{{ $post->title }}"></a>
+
                     <div>
                         <div class="flex items-center justify-between mb-4">
                             @if($post->category)
@@ -38,10 +41,8 @@
                             <span class="text-[11px] text-slate-500 font-mono">{{ $post->reading_time_minutes }} Min Read</span>
                         </div>
 
-                        <h3 class="font-serif text-base font-bold text-slate-900 mb-3 leading-snug">
-                            <a href="{{ route('blog.show', $post->slug) }}" class="hover:text-blue-700 transition-colors">
-                                {{ $post->title }}
-                            </a>
+                        <h3 class="font-serif text-base font-bold text-slate-900 group-hover:text-blue-700 transition-colors mb-3 leading-snug">
+                            {{ $post->title }}
                         </h3>
 
                         <p class="text-xs text-slate-600 leading-relaxed line-clamp-3">
@@ -51,9 +52,10 @@
 
                     <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
                         <span class="text-[11px] text-slate-500 font-medium">{{ $post->author_name }}</span>
-                        <a href="{{ route('blog.show', $post->slug) }}" class="text-xs font-bold text-blue-700 hover:text-blue-800">
-                            Read Article &rarr;
-                        </a>
+                        <span class="text-xs font-bold text-blue-700 group-hover:text-blue-800 flex items-center gap-1">
+                            <span>Read Article</span>
+                            <span class="transition-transform group-hover:translate-x-1">&rarr;</span>
+                        </span>
                     </div>
                 </article>
             @endforeach

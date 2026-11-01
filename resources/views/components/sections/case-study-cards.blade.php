@@ -27,7 +27,10 @@
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             @foreach($cases as $case)
-                <div class="rounded-3xl border border-slate-200 bg-slate-50/70 p-7 shadow-xs hover:bg-white hover:border-blue-500 hover:shadow-card-hover hover-lift transition-all flex flex-col justify-between reveal stagger-{{ $loop->iteration }}">
+                <div class="group relative rounded-3xl border border-slate-200 bg-slate-50/70 p-7 shadow-xs hover:bg-white hover:border-blue-500 hover:shadow-card-hover hover-lift transition-all flex flex-col justify-between reveal stagger-{{ $loop->iteration }} cursor-pointer">
+                    <!-- Stretched Link -->
+                    <a href="{{ route('case-studies.show', $case->slug) }}" class="absolute inset-0 z-10" aria-label="{{ $case->title }}"></a>
+
                     <div>
                         <div class="flex items-center justify-between mb-4">
                             <span class="rounded bg-blue-50 px-2.5 py-0.5 text-[10px] font-bold uppercase text-blue-800 border border-blue-200">
@@ -36,10 +39,8 @@
                             <span class="text-[11px] text-slate-500 font-mono">{{ $case->timeline_days }} Days Ops</span>
                         </div>
 
-                        <h3 class="font-serif text-base font-bold text-slate-900 mb-3 leading-snug">
-                            <a href="{{ route('case-studies.show', $case->slug) }}" class="hover:text-blue-700 transition-colors">
-                                {{ $case->title }}
-                            </a>
+                        <h3 class="font-serif text-base font-bold text-slate-900 group-hover:text-blue-700 transition-colors mb-3 leading-snug">
+                            {{ $case->title }}
                         </h3>
 
                         <div class="space-y-3 text-xs text-slate-700">
@@ -56,9 +57,10 @@
 
                     <div class="mt-6 pt-4 border-t border-slate-200/60 flex items-center justify-between">
                         <span class="text-[10px] text-slate-500 truncate max-w-[170px]">{{ $case->key_evidence_type }}</span>
-                        <a href="{{ route('case-studies.show', $case->slug) }}" class="text-xs font-bold text-blue-700 hover:text-blue-800">
-                            Read Case &rarr;
-                        </a>
+                        <span class="text-xs font-bold text-blue-700 group-hover:text-blue-800 flex items-center gap-1">
+                            <span>Read Dossier</span>
+                            <span class="transition-transform group-hover:translate-x-1">&rarr;</span>
+                        </span>
                     </div>
                 </div>
             @endforeach

@@ -45,7 +45,10 @@
 
         <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             @foreach($serviceList as $srv)
-                <div class="group relative rounded-2xl border border-slate-200 bg-slate-50/70 p-7 shadow-xs transition-all duration-300 hover:-translate-y-1 hover:bg-white hover:border-blue-500 hover:shadow-card-hover flex flex-col justify-between">
+                <div class="group relative rounded-2xl border border-slate-200 bg-slate-50/70 p-7 shadow-xs transition-all duration-300 hover:-translate-y-1 hover:bg-white hover:border-blue-500 hover:shadow-card-hover flex flex-col justify-between cursor-pointer">
+                    <!-- Stretched Card Link: makes entire card clickable -->
+                    <a href="{{ route('services.show', $srv->slug) }}" class="absolute inset-0 z-10" aria-label="{{ $srv->title }}"></a>
+
                     <div>
                         <div class="flex items-center justify-between mb-4">
                             <span class="rounded-lg bg-blue-50 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-blue-800 border border-blue-200">
@@ -55,9 +58,7 @@
                         </div>
 
                         <h3 class="font-serif text-lg font-bold text-slate-900 group-hover:text-blue-700 transition-colors">
-                            <a href="{{ route('services.show', $srv->slug) }}">
-                                {{ $srv->title }}
-                            </a>
+                            <span class="relative z-0">{{ $srv->title }}</span>
                         </h3>
 
                         <p class="mt-3 text-xs leading-relaxed text-slate-600">
@@ -66,12 +67,14 @@
                     </div>
 
                     <div class="mt-6 pt-4 border-t border-slate-200/60 flex items-center justify-between">
-                        <a href="{{ route('services.show', $srv->slug) }}" class="inline-flex items-center gap-1.5 text-xs font-bold text-blue-700 hover:text-blue-800 group-hover:translate-x-0.5 transition-transform">
-                            <span>Service Scope</span>
+                        <span class="inline-flex items-center gap-1.5 text-xs font-bold text-blue-700 group-hover:text-blue-800 group-hover:translate-x-1 transition-transform">
+                            <span>Service Scope & Dossier</span>
                             <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
-                        </a>
-                        <a href="{{ route('consultation') }}" class="text-[11px] font-semibold text-slate-500 hover:text-blue-700">
-                            Inquire &rarr;
+                        </span>
+                        <a href="{{ route('consultation') }}"
+                           @click.stop.prevent="$dispatch('open-consultation-modal', { service: '{{ addslashes($srv->title) }}' })"
+                           class="relative z-20 text-[11px] font-semibold text-slate-500 hover:text-blue-700 px-2 py-1 rounded-md hover:bg-blue-50 transition-colors">
+                            Quick Inquire &rarr;
                         </a>
                     </div>
                 </div>

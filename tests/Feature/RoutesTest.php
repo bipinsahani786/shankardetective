@@ -22,7 +22,6 @@ class RoutesTest extends TestCase
             '/book-free-consultation',
             '/frequently-asked-questions',
             '/client-testimonials',
-            '/our-investigation-team',
             '/careers',
             '/privacy-policy',
             '/terms-and-conditions',
@@ -39,6 +38,8 @@ class RoutesTest extends TestCase
             $response = $this->get($url);
             $response->assertStatus(200);
         }
+
+        $this->get('/our-investigation-team')->assertRedirect('/about-us');
     }
 
     public function test_all_service_pages(): void
