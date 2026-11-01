@@ -109,7 +109,7 @@ class CitySeeder extends Seeder
                     ],
                     [
                         'q' => 'Is the evidence you provide accepted in Pune Family Courts?',
-                        'a' => 'Yes. All photo, video, and documentary evidence is collected lawfully under Section 63 BSA guidelines, so your advocate can present it in court without problems.',
+                        'a' => 'Yes. All photo, video, and documentary evidence is collected lawfully with exact timestamps and authentic public records, so your advocate can present it in court without problems.',
                     ],
                 ],
                 'order' => 2,

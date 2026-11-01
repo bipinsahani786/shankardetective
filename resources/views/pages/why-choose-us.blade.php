@@ -1,6 +1,6 @@
 <x-app-layout
     title="Why Choose Deep Trace Detective | Integrity & Results"
-    description="Discover why clients trust Deep Trace Detective: 12+ years experience led by Senior Case Director, Sec 63 BSA evidence, Indore HQ, and zero leak record."
+    description="Discover why clients trust Deep Trace Detective: 12+ years experience led by Senior Case Director, court-admissible evidence, Indore HQ, and zero leak record."
     :breadcrumbs="[['name' => 'Why Choose Us', 'url' => route('why-choose-us')]]"
     :faqs="$faqs"
 >
@@ -55,7 +55,7 @@
         variant="left"
         tag="Clear Evidence"
         title="Clear Evidence You and Your Lawyer Can Rely On"
-        description="We collect genuine, unedited photographs, time-stamped video logs, and official records under Section 63 BSA that can be submitted in court with zero dispute."
+        description="We collect genuine, unedited photographs, time-stamped video logs, and official records that can be submitted in court with zero dispute."
         image="/images/services/corporate-due-diligence.jpg"
     />
 

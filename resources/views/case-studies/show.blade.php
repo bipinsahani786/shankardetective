@@ -15,7 +15,7 @@
 
     <!-- Section 2: Hero -->
     <x-sections.hero
-        :badge="'Redacted Case File &bull; ' . $case->service_category . ' &bull; ' . $case->timeline_days . ' Days Ops'"
+        :badge="'Redacted Case File • ' . $case->service_category . ' • ' . $case->timeline_days . ' Days Ops'"
         :title="$case->title"
         :subtitle="'A detailed case analysis of our tactical investigative methodology and verified factual outcome.'"
         cta-primary-text="Inquire About Similar Case"

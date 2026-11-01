@@ -8,7 +8,7 @@
 
     <!-- Section 2: Hero -->
     <x-sections.hero
-        badge="Investigation Knowledge Bureau &bull; Legal Guidance"
+        badge="Investigation Knowledge Bureau • Legal Guidance"
         title="Intelligence & <span class='text-blue-700'>Advisory Articles</span>"
         subtitle="In-depth analysis, legal compliance guides, and investigative insights penned by senior private detectives, forensic examiners, and legal advisors led by Senior Case Director."
         cta-primary-text="Explore Articles"

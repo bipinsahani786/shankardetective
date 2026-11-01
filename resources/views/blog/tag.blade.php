@@ -14,7 +14,7 @@
 
     <!-- Hero -->
     <x-sections.hero
-        :badge="'Topic Archive &bull; #' . $tag->name"
+        :badge="'Topic Archive • #' . $tag->name"
         :title="'Articles Tagged <span class=\'text-gold-400\'>#' . $tag->name . '</span>'"
         subtitle="Review specialized intelligence reports, case references, and advisory commentary on this topic."
         cta-primary-text="Browse Articles"

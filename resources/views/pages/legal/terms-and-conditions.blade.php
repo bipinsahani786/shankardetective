@@ -11,7 +11,7 @@
                 Legal Engagement Framework
             </span>
             <h1 class="mt-3 font-serif text-3xl sm:text-4xl font-bold text-slate-900">Terms & Conditions of Engagement</h1>
-            <p class="mt-2 text-xs text-slate-500">Last Revised: 2026 &bull; Governing Jurisdiction: Indore, Madhya Pradesh, India &bull; Deep Trace Detective Agency</p>
+            <p class="mt-2 text-xs text-slate-500">Last Revised: 2026 • Governing Jurisdiction: Indore, Madhya Pradesh, India • Deep Trace Detective Agency</p>
 
             <div class="mt-10 space-y-8 text-xs sm:text-sm text-slate-700 leading-relaxed bg-white p-8 sm:p-12 rounded-3xl border border-slate-200 shadow-sm">
                 <div>
@@ -20,8 +20,8 @@
                 </div>
 
                 <div>
-                    <h2 class="font-serif text-lg font-bold text-slate-900 mb-2">2. Strict Refusal of Unlawful Activities</h2>
-                    <p>In accordance with Indian criminal statutes (Bharatiya Nyaya Sanhita, Indian Telegraph Act, Information Technology Act), Deep Trace Detective Agency strictly will NOT undertake: unauthorized wiretapping, illegal phone call recording, procuring Call Detail Records (CDR) without judicial warrants, or hacking private electronic devices or chat accounts. All evidence is obtained through lawful public observation, open-source intelligence, and statutory registry audits.</p>
+                    <h2 class="font-serif text-lg font-bold text-slate-900 mb-2">2. Lawful Investigative Standards</h2>
+                    <p>Deep Trace Detective Agency operates with absolute professional integrity. All investigative activities are conducted through legitimate public observation, open-source intelligence, official public registry verification, and factual field documentation. We do not engage in unauthorized electronic interception or intrusive methods, ensuring that all findings remain credible, authentic, and respected in legal and personal contexts.</p>
                 </div>
 
                 <div>

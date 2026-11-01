@@ -15,7 +15,7 @@
 
     <!-- Section 2: Localized Hero -->
     <x-sections.hero
-        :badge="'100% Confidential Bureau &bull; ' . $cityModel->name . ', ' . $cityModel->state"
+        :badge="'100% Confidential Bureau • ' . $cityModel->name . ', ' . $cityModel->state"
         :title="$cityModel->hero_title"
         :subtitle="$cityModel->hero_subtitle"
         cta-primary-text="Free Case Assessment"
@@ -128,7 +128,7 @@
     <!-- Section 27: Lead Form -->
     <x-sections.lead-form
         :title="'Schedule Consultation: ' . $cityModel->name . ' Bureau'"
-        :subtitle="'Connect directly with our ' . $cityModel->name . ' case director. 100% confidential under Indian DPDP Act.'"
+        :subtitle="'Connect directly with our ' . $cityModel->name . ' case director. 100% confidential consultation under strict NDA.'"
         :city-preset="$cityModel->name"
     />
 

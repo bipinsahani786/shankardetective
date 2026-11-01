@@ -9,7 +9,7 @@
 
     <!-- Section 2: Hero -->
     <x-sections.hero
-        badge="24 Specialized Practices &bull; Pan-India Deployment"
+        badge="24 Specialized Practices • Pan-India Deployment"
         title="Comprehensive <span class='text-blue-700'>Investigation Services</span>"
         subtitle="Institutional intelligence, discreet verification, cyber forensics, and corporate due diligence tailored for personal and commercial matters. Led by Senior Case Director."
         cta-primary-text="Free Case Evaluation"

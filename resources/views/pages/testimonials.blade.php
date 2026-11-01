@@ -33,7 +33,7 @@
                     Trusted By Families & Corporations
                 </h2>
                 <p class="mt-2 text-sm text-slate-600">
-                    Names are anonymized upon client request to protect personal privacy, in accordance with the DPDP Act 2023.
+                    Names are anonymized upon client request to protect personal privacy and identity confidentiality.
                 </p>
             </div>
 

@@ -14,7 +14,7 @@
 
     <!-- Hero -->
     <x-sections.hero
-        :badge="'Category Archive &bull; ' . $category->name"
+        :badge="'Category Archive • ' . $category->name"
         :title="$category->name"
         :subtitle="$category->description ?? 'Explore all intelligence articles in this investigative division.'"
         cta-primary-text="Explore Articles"

@@ -41,6 +41,9 @@
 </head>
 <body class="bg-slate-50 font-sans text-slate-800 antialiased selection:bg-blue-600 selection:text-white pb-16 sm:pb-0">
 
+    <!-- Scroll Reading Progress Bar -->
+    <div id="scroll-progress-bar" class="fixed top-0 left-0 h-[3px] bg-gradient-to-r from-blue-700 via-amber-500 to-blue-600 z-50 transition-all duration-75 w-0 pointer-events-none"></div>
+
     <!-- Global Header with Mega-Menu -->
     <x-header />
 
@@ -84,6 +87,19 @@
 
     <!-- Global Floating Action Buttons (Call, WhatsApp, Mobile Sticky Bar) -->
     <x-floating-actions :page-title="$title ?? null" />
+
+    <!-- Smooth Back to Top Button -->
+    <button id="back-to-top-btn"
+            type="button"
+            aria-label="Scroll back to top"
+            class="fixed bottom-24 sm:bottom-8 right-6 z-40 flex h-11 w-11 items-center justify-center rounded-xl bg-blue-700 text-white shadow-lg shadow-blue-900/30 transition-all duration-300 opacity-0 pointer-events-none translate-y-4 hover:bg-blue-800 hover:scale-110 hover:shadow-xl focus:outline-none">
+        <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 15l7-7 7 7" />
+        </svg>
+    </button>
+
+    <!-- Global Confidential Consultation Modal -->
+    <x-consultation-modal />
 
 </body>
 </html>

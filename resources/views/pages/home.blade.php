@@ -106,9 +106,6 @@
     <!-- Section 27: Related Knowledge Articles -->
     <x-sections.related-blogs :posts="$latestPosts" />
 
-    <!-- Section 28: Secure Lead Capture Form -->
-    <x-sections.lead-form />
-
-    <!-- Section 29: Final Action CTA -->
+    <!-- Section 28: Final Action CTA -->
     <x-sections.final-cta />
 </x-app-layout>

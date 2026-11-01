@@ -16,7 +16,7 @@
 
     <!-- Section 2: Hero -->
     <x-sections.hero
-        :badge="'100% Confidential &bull; ' . $service->category"
+        :badge="'100% Confidential • ' . $service->category"
         :title="$service->hero_headline"
         :subtitle="$service->hero_subheadline"
         cta-primary-text="Book Confidential Case Review"

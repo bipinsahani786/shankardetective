@@ -33,9 +33,9 @@
                     <svg class="h-4 w-4 text-blue-700" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
                     {{ $post->author_name }} ({{ $post->author_title }})
                 </span>
-                <span>&bull;</span>
+                <span>•</span>
                 <span>{{ $post->published_at?->format('F d, Y') ?? 'Recently Published' }}</span>
-                <span>&bull;</span>
+                <span>•</span>
                 <span class="font-mono text-blue-700 font-bold">{{ $post->reading_time_minutes }} Min Read</span>
             </div>
         </div>
@@ -107,10 +107,10 @@
                             Related Practices
                         </h4>
                         <ul class="space-y-3 text-xs">
-                            <li><a href="{{ route('services.show', 'pre-matrimonial-investigation') }}" class="text-slate-700 hover:text-blue-700 block transition-colors font-medium">&bull; Pre-Matrimonial Verification</a></li>
-                            <li><a href="{{ route('services.show', 'corporate-investigation') }}" class="text-slate-700 hover:text-blue-700 block transition-colors font-medium">&bull; Corporate Intelligence & Fraud</a></li>
-                            <li><a href="{{ route('services.show', 'cyber-crime-digital-forensics') }}" class="text-slate-700 hover:text-blue-700 block transition-colors font-medium">&bull; Cyber Forensics & Audits</a></li>
-                            <li><a href="{{ route('services.show', 'asset-tracing') }}" class="text-slate-700 hover:text-blue-700 block transition-colors font-medium">&bull; Asset Tracing & Solvency</a></li>
+                            <li><a href="{{ route('services.show', 'pre-matrimonial-investigation') }}" class="text-slate-700 hover:text-blue-700 block transition-colors font-medium">• Pre-Matrimonial Verification</a></li>
+                            <li><a href="{{ route('services.show', 'corporate-investigation') }}" class="text-slate-700 hover:text-blue-700 block transition-colors font-medium">• Corporate Intelligence & Fraud</a></li>
+                            <li><a href="{{ route('services.show', 'cyber-crime-digital-forensics') }}" class="text-slate-700 hover:text-blue-700 block transition-colors font-medium">• Cyber Forensics & Audits</a></li>
+                            <li><a href="{{ route('services.show', 'asset-tracing') }}" class="text-slate-700 hover:text-blue-700 block transition-colors font-medium">• Asset Tracing & Solvency</a></li>
                         </ul>
                     </div>
                 </aside>

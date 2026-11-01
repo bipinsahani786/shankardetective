@@ -9,7 +9,7 @@
 
     <!-- Section 2: Hero -->
     <x-sections.hero
-        badge="Redacted Real-World Operations &bull; 100% Verified Verdicts"
+        badge="Redacted Real-World Operations • 100% Verified Verdicts"
         title="Proven <span class='text-blue-700'>Case Studies</span>"
         subtitle="Detailed reviews of complex personal, corporate, and digital investigations resolved with court-admissible electronic evidence across India. Directed by Senior Case Director."
         cta-primary-text="Explore Case Directory"
@@ -45,7 +45,7 @@
         variant="right"
         tag="Judicial Standard"
         title="Evidence Admitted Without Objection in Court"
-        description="Our case dossiers are formatted to comply with Section 63 BSA standards, enabling advocates to enter photographs and video logs into evidence smoothly."
+        description="Our case dossiers are formatted clearly with unedited photographs and time-stamped video logs, enabling advocates and families to verify facts smoothly."
     />
 
     <!-- Section 8: Why Choose Us -->

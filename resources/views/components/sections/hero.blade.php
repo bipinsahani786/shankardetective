@@ -21,10 +21,10 @@
     <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 items-center gap-12 lg:grid-cols-12">
             <!-- Left Text Content -->
-            <div class="lg:col-span-7 text-center lg:text-left">
+            <div class="lg:col-span-7 text-center lg:text-left reveal-left">
                 <!-- Trust Pill Badge -->
                 <div class="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50/80 px-4 py-1.5 text-xs font-bold text-blue-800 mb-5 shadow-xs">
-                    <span class="flex h-2 w-2 rounded-full bg-blue-600 animate-pulse"></span>
+                    <span class="flex h-2 w-2 rounded-full bg-blue-600 radar-ring"></span>
                     <span>{!! $badge !!}</span>
                     <span class="text-slate-400">|</span>
                     <span class="text-amber-700">Indore HQ</span>
@@ -43,7 +43,8 @@
                 <!-- Action CTAs -->
                 <div class="mt-8 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
                     <a href="{{ $primaryUrl }}"
-                       class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 rounded-xl bg-blue-700 px-7 py-3.5 text-sm font-bold text-white shadow-md transition-all duration-300 hover:bg-blue-800 hover:shadow-lg hover:scale-[1.02]">
+                       @if(str_contains($primaryUrl, 'consultation')) @click.prevent="$dispatch('open-consultation-modal')" @endif
+                       class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 rounded-xl bg-blue-700 px-7 py-3.5 text-sm font-bold text-white shadow-md transition-all duration-300 hover:bg-blue-800 hover:shadow-lg hover:scale-[1.02] btn-shimmer cursor-pointer">
                         <svg class="h-5 w-5 text-amber-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                         </svg>
@@ -59,30 +60,30 @@
                     </a>
                 </div>
 
-                <!-- Google Ads Safe & Legal Compliance Micro-Tag -->
+                <!-- Trust & Discretion Micro-Tag -->
                 <div class="mt-6 flex flex-wrap items-center justify-center lg:justify-start gap-4 text-xs text-slate-500">
-                    <span class="flex items-center gap-1.5 font-medium">
-                        <svg class="h-4 w-4 text-emerald-600 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-                        DPDP Act 2023 & BNS Compliant
-                    </span>
-                    <span class="hidden sm:inline text-slate-300">•</span>
                     <span class="flex items-center gap-1.5 font-medium">
                         <svg class="h-4 w-4 text-emerald-600 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
                         100% Strict NDA Protection
                     </span>
                     <span class="hidden sm:inline text-slate-300">•</span>
                     <span class="flex items-center gap-1.5 font-medium">
+                        <svg class="h-4 w-4 text-emerald-600 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                        Court-Admissible Evidence
+                    </span>
+                    <span class="hidden sm:inline text-slate-300">•</span>
+                    <span class="flex items-center gap-1.5 font-medium">
                         <svg class="h-4 w-4 text-blue-600 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-                        Section 63 BSA Court Evidence
+                        Experienced Private Investigators
                     </span>
                 </div>
             </div>
 
             <!-- Right Visual Graphic with Real Photography & Deep Trace Illustration -->
-            <div class="lg:col-span-5 relative">
+            <div class="lg:col-span-5 relative reveal-right">
                 <div class="relative mx-auto max-w-md lg:max-w-none">
                     <!-- Main Card Image -->
-                    <div class="overflow-hidden rounded-3xl border border-slate-200 bg-white p-3 shadow-2xl">
+                    <div class="overflow-hidden rounded-3xl border border-slate-200 bg-white p-3 shadow-2xl hover-lift">
                         <div class="relative overflow-hidden rounded-2xl aspect-[4/3] bg-slate-100">
                             <img src="{{ asset('images/hero/hero-detective.jpg') }}"
                                  alt="Deep Trace Detective Investigation & Risk Advisory"

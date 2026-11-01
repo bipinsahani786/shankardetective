@@ -59,7 +59,7 @@
                     <div class="absolute bottom-3 left-3 right-3 text-white">
                         <span class="text-[10px] font-bold uppercase tracking-wider text-amber-400 block">Court Documentation</span>
                         <h4 class="font-serif text-sm font-bold">Sealed Case Dossier</h4>
-                        <p class="text-[11px] text-slate-300">Section 63 BSA certified</p>
+                        <p class="text-[11px] text-slate-300">Court-admissible factual proof</p>
                     </div>
                 </div>
             </div>

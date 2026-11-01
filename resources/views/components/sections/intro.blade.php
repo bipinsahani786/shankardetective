@@ -16,7 +16,7 @@
     ];
 
     $pillarPoints = count($points) > 0 ? $points : [
-        'Strict DPDP Act 2023 & BNS legal compliance on all inquiries.',
+        '100% Confidential handling and strict client privacy protocols.',
         'Direct case supervision by Principal Investigator.',
         'Encrypted evidence storage with post-case data purge protocols.',
         'Pan-India operational reach with rapid response mobilization.'

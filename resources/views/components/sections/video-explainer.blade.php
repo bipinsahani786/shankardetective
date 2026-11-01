@@ -27,14 +27,14 @@
 
                 <div class="relative z-10 mt-6 text-white">
                     <span class="font-serif text-base sm:text-lg font-bold block">Case Intake Protocol Briefing</span>
-                    <span class="text-xs text-amber-400 mt-1 block">Presented by Principal Investigator &bull; 2 Minutes</span>
+                    <span class="text-xs text-amber-400 mt-1 block">Presented by Principal Investigator • 2 Minutes</span>
                 </div>
             </div>
 
             <div class="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4 text-center text-xs text-slate-700 pt-6 border-t border-slate-200">
                 <div><span class="font-bold text-blue-700 block mb-0.5">1. Confidential Consultation</span> Zero cost initial discussion</div>
                 <div><span class="font-bold text-blue-700 block mb-0.5">2. Signed Legal NDA</span> 100% Client Anonymity</div>
-                <div><span class="font-bold text-blue-700 block mb-0.5">3. Sealed Dossier Delivery</span> Section 63 BSA certified</div>
+                <div><span class="font-bold text-blue-700 block mb-0.5">3. Sealed Dossier Delivery</span> Court-admissible evidence</div>
             </div>
         </div>
     </div>

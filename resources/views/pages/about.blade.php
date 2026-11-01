@@ -9,7 +9,7 @@
 
     <!-- Section 2: Hero -->
     <x-sections.hero
-        badge="Led by Senior Case Director &bull; 12+ Years Experience"
+        badge="Led by Senior Case Director • 12+ Years Experience"
         title="About <span class='text-blue-700'>Deep Trace Detective</span>"
         subtitle="Founded and led by Principal Investigator. We help families and businesses discover the clear truth with 100% confidentiality across Indore, Pune, Mumbai, Ahmedabad, and Bangalore."
         cta-primary-text="Book Free Consultation"
@@ -22,7 +22,7 @@
     <!-- Section 4: Stats Counter -->
     <x-sections.stats-counter
         headline="Over 12 Years of Proven Truth & Confidentiality"
-        subheadline="More than 1,850 successfully resolved verification inquiries for families and businesses."
+        subheadline="Over 100+ successfully resolved verification inquiries for families and businesses across India."
     />
 
     <!-- Section 5: Intro Narrative -->

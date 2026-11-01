@@ -22,14 +22,14 @@
                 </thead>
                 <tbody class="divide-y divide-slate-100 text-slate-700">
                     <tr class="hover:bg-slate-50/50 transition-colors">
-                        <td class="p-4 sm:p-5 font-bold text-slate-900">Legal Compliance & DPDP Act</td>
-                        <td class="p-4 sm:p-5 font-bold text-emerald-700 bg-blue-50/40 border-x border-blue-100">Strictly 100% Compliant (BNS & IT Act)</td>
-                        <td class="p-4 sm:p-5 text-rose-600 font-medium">Makes illegal promises (CDR/wiretaps) risking legal liability</td>
+                        <td class="p-4 sm:p-5 font-bold text-slate-900">Operational Methodology</td>
+                        <td class="p-4 sm:p-5 font-bold text-emerald-700 bg-blue-50/40 border-x border-blue-100">100% Legitimate & Factual Verification</td>
+                        <td class="p-4 sm:p-5 text-rose-600 font-medium">Makes unrealistic promises with zero verifiable proof</td>
                     </tr>
                     <tr class="hover:bg-slate-50/50 transition-colors">
-                        <td class="p-4 sm:p-5 font-bold text-slate-900">Evidence Admissibility in Court</td>
-                        <td class="p-4 sm:p-5 font-bold text-emerald-700 bg-blue-50/40 border-x border-blue-100">Section 63 BSA Certified with Hash & Affidavits</td>
-                        <td class="p-4 sm:p-5 text-slate-500">Uncertified clips rejected by Family Court judges</td>
+                        <td class="p-4 sm:p-5 font-bold text-slate-900">Courtroom Evidence Quality</td>
+                        <td class="p-4 sm:p-5 font-bold text-emerald-700 bg-blue-50/40 border-x border-blue-100">Verified Photographic Logs & Official Records</td>
+                        <td class="p-4 sm:p-5 text-slate-500">Unverified blurry clips rejected by advocates</td>
                     </tr>
                     <tr class="hover:bg-slate-50/50 transition-colors">
                         <td class="p-4 sm:p-5 font-bold text-slate-900">Lead Investigator Pedigree</td>
@@ -39,7 +39,7 @@
                     <tr class="hover:bg-slate-50/50 transition-colors">
                         <td class="p-4 sm:p-5 font-bold text-slate-900">Client Confidentiality Protocol</td>
                         <td class="p-4 sm:p-5 font-bold text-emerald-700 bg-blue-50/40 border-x border-blue-100">Ironclad NDA, Case Code Masking, Encrypted Storage</td>
-                        <td class="p-4 sm:p-5 text-rose-600 font-medium">High risk of data leaks and target blackmail</td>
+                        <td class="p-4 sm:p-5 text-rose-600 font-medium">High risk of data leaks and compromised privacy</td>
                     </tr>
                     <tr class="hover:bg-slate-50/50 transition-colors">
                         <td class="p-4 sm:p-5 font-bold text-slate-900">Physical Bureau Presence</td>

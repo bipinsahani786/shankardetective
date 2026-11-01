@@ -56,7 +56,7 @@
                         <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">&check;</span> Dedicated multi-operative team</li>
                         <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">&check;</span> 4K telephoto video & daily logs</li>
                         <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">&check;</span> Real-time operative supervisor briefings</li>
-                        <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">&check;</span> Section 63 BSA court certificate</li>
+                        <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">&check;</span> Comprehensive evidence dossier</li>
                     </ul>
                 </div>
 

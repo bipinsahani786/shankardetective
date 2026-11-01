@@ -1,6 +1,6 @@
 <x-app-layout
     title="Disclaimer & Legal Compliance | Deep Trace Detective Agency"
-    description="Statutory legal compliance statement of Deep Trace Detective Agency. Adhering strictly to Indian DPDP Act 2023, Bharatiya Nyaya Sanhita, and ethical investigative codes."
+    description="Statutory legal compliance statement of Deep Trace Detective Agency. Adhering strictly to ethical investigative codes and complete client confidentiality."
     :breadcrumbs="[['name' => 'Legal Compliance & Disclaimer', 'url' => route('disclaimer-compliance')]]"
 >
     <x-sections.breadcrumb :items="[['name' => 'Legal Compliance & Disclaimer', 'url' => route('disclaimer-compliance')]]" />
@@ -11,23 +11,23 @@
                 Statutory Notice
             </span>
             <h1 class="mt-3 font-serif text-3xl sm:text-4xl font-bold text-slate-900">Disclaimer & Legal Compliance Statement</h1>
-            <p class="mt-2 text-xs text-slate-500">Strict Operating Guidelines under the Laws of India &bull; Year 2026 &bull; Deep Trace Detective Agency Indore</p>
+            <p class="mt-2 text-xs text-slate-500">Strict Operating Guidelines under the Laws of India • Year 2026 • Deep Trace Detective Agency Indore</p>
 
             <div class="mt-10 space-y-8 text-xs sm:text-sm text-slate-700 leading-relaxed bg-white p-8 sm:p-12 rounded-3xl border border-slate-200 shadow-sm">
                 <!-- Highlight Box -->
-                <div class="rounded-2xl border-2 border-amber-300 bg-amber-50 p-6 text-slate-800">
-                    <span class="font-bold text-amber-900 text-sm block mb-2">IMPORTANT NOTICE ON GOOGLE ADS & INDIAN STATUTES COMPLIANCE:</span>
-                    <p class="text-amber-950">Deep Trace Detective Agency operates with absolute compliance to Indian law and Google Advertising policies. We DO NOT provide Call Detail Records (CDR), illegal phone wiretaps, WhatsApp tracking, mobile malware, or secret vehicle trackers. Any inquiry demanding illegal surveillance or spyware will be rejected immediately.</p>
+                <div class="rounded-2xl border-2 border-blue-200 bg-blue-50/60 p-6 text-slate-800">
+                    <span class="font-bold text-blue-950 text-sm block mb-2">OUR COMMITMENT TO LAWFUL & ETHICAL INVESTIGATION:</span>
+                    <p class="text-slate-700 leading-relaxed">Deep Trace Detective Agency operates as a premier confidential private investigation and verification agency. All services—including pre-matrimonial background checks, corporate due diligence, asset tracing, and discrete field observation—are conducted strictly through lawful information gathering, public registries, physical surveillance in public spaces, and open-source intelligence. Our agency maintains the highest ethical standards of client privacy, non-disclosure, and court admissibility.</p>
                 </div>
 
                 <div>
                     <h2 class="font-serif text-lg font-bold text-slate-900 mb-2">1. Constitutional & Statutory Boundaries</h2>
-                    <p>Our operations respect Article 21 of the Constitution of India as interpreted in *K.S. Puttaswamy v. Union of India (2017)*. Verification and observation are conducted exclusively in public spaces, public roads, and commercial premises where there is no reasonable expectation of spatial privacy. Private homes and bedrooms are never entered or filmed.</p>
+                    <p>Our operations respect Article 21 of the Constitution of India. Verification and observation are conducted exclusively in public spaces, public thoroughfares, and commercial premises where there is no reasonable expectation of spatial privacy. Private residential quarters are never entered or filmed.</p>
                 </div>
 
                 <div>
-                    <h2 class="font-serif text-lg font-bold text-slate-900 mb-2">2. Information Technology Act 2000 Compliance</h2>
-                    <p>Under Sections 43 and 66 of the Information Technology Act 2000, unauthorized access, extraction, or interception of computer systems, smartphones, or electronic communications is a punishable offense. We do not deploy spyware, keyloggers, or unauthorized trojans. Our cyber forensics division conducts lawful, defense-oriented analysis on client-owned or consented systems only.</p>
+                    <h2 class="font-serif text-lg font-bold text-slate-900 mb-2">2. Digital Ethics & Device Integrity</h2>
+                    <p>All verification and digital forensic inquiries are conducted strictly on client-consented systems, corporate assets, or publicly accessible registries. We adhere to ethical industry standards and legitimate investigative methodologies, delivering factual reports with intact chain of custody.</p>
                 </div>
 
                 <div>

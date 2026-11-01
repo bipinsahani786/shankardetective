@@ -9,7 +9,7 @@
 
     <!-- Section 2: Hero -->
     <x-sections.hero
-        badge="Zero Cost &bull; Zero Obligation &bull; 100% Confidential"
+        badge="Zero Cost • Zero Obligation • 100% Confidential"
         title="Book Your Confidential <span class='text-blue-700'>Case Consultation</span>"
         subtitle="Uncertainty costs more than truth. Consult with Principal Investigator, explore legal avenues, and understand exact costs with complete peace of mind."
         cta-primary-text="Jump to Intake Form"

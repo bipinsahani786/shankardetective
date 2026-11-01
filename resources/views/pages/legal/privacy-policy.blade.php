@@ -1,6 +1,6 @@
 <x-app-layout
     title="Privacy Policy | Deep Trace Detective Agency"
-    description="Privacy Policy of Deep Trace Detective Agency. Adhering strictly to India's DPDP Act 2023, data encryption standards, and complete client anonymity."
+    description="Privacy Policy of Deep Trace Detective Agency. Adhering strictly to client data encryption standards, non-disclosure protocols, and complete anonymity."
     :breadcrumbs="[['name' => 'Privacy Policy', 'url' => route('privacy-policy')]]"
 >
     <x-sections.breadcrumb :items="[['name' => 'Privacy Policy', 'url' => route('privacy-policy')]]" />
@@ -10,13 +10,13 @@
             <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 border border-blue-200 uppercase tracking-wider">
                 Legal Document
             </span>
-            <h1 class="mt-3 font-serif text-3xl sm:text-4xl font-bold text-slate-900">Privacy Policy & DPDP Act 2023 Compliance</h1>
-            <p class="mt-2 text-xs text-slate-500">Effective Date: November 1, 2024 &bull; Last Revised: 2026 &bull; Deep Trace Detective Agency</p>
+            <h1 class="mt-3 font-serif text-3xl sm:text-4xl font-bold text-slate-900">Privacy Policy & Client Data Protection</h1>
+            <p class="mt-2 text-xs text-slate-500">Effective Date: November 1, 2024 • Last Revised: 2026 • Deep Trace Detective Agency</p>
 
             <div class="mt-10 space-y-8 text-xs sm:text-sm text-slate-700 leading-relaxed bg-white p-8 sm:p-12 rounded-3xl border border-slate-200 shadow-sm">
                 <div>
                     <h2 class="font-serif text-lg font-bold text-slate-900 mb-2">1. Commitment to Absolute Privacy</h2>
-                    <p>Deep Trace Detective Agency ("Deep Trace Detective", "we", "us", or "our"), directed by Senior Case Director, regards client privacy and confidentiality as the foundational tenet of our enterprise. This Privacy Policy outlines our strict protocols regarding the collection, processing, encryption, and secure disposal of personal data in compliance with the Digital Personal Data Protection (DPDP) Act 2023 and the Information Technology Act 2000.</p>
+                    <p>Deep Trace Detective Agency ("Deep Trace Detective", "we", "us", or "our"), directed by Senior Case Director, regards client privacy and confidentiality as the foundational tenet of our enterprise. This Privacy Policy outlines our strict protocols regarding the collection, processing, encryption, and secure disposal of personal data in accordance with the Information Technology Act 2000 and ethical investigation guidelines.</p>
                 </div>
 
                 <div>

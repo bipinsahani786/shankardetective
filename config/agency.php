@@ -47,7 +47,7 @@ return [
         'instagram' => 'https://instagram.com/deeptracedetective',
     ],
 
-    'legal_notice' => 'Deep Trace Detective operates in strict compliance with the Digital Personal Data Protection (DPDP) Act 2023, Bharatiya Nyaya Sanhita (BNS), Bharatiya Sakshya Adhiniyam (BSA) 2023, and the Information Technology Act 2000. We strictly do NOT provide unauthorized phone tapping, call detail record (CDR) procurement, spyware installation, or illegal surveillance. All findings are derived through lawful intelligence, public records, open-source verification, and ethical field methods admissible under Indian law.',
+    'legal_notice' => 'Deep Trace Detective is a premier confidential private investigation and verification agency headquartered in Indore with operational coverage across Pune, Mumbai, Ahmedabad, and Bangalore. All inquiries and client communications are strictly confidential and protected under Non-Disclosure Agreements (NDA). Evidence is gathered through verified physical observations, public records, and lawful factual verification.',
 
     'top_cities' => [
         ['name' => 'Indore (HQ)', 'slug' => 'indore', 'state' => 'Madhya Pradesh', 'hq' => true],

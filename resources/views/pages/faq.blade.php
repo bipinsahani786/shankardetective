@@ -1,6 +1,6 @@
 <x-app-layout
     title="Investigation FAQs | Deep Trace Detective Agency Indore"
-    description="Find transparent answers regarding private investigations in India: DPDP Act compliance, court admissibility under BSA, consultation, and ethical methods."
+    description="Find transparent answers regarding private investigations in India: confidentiality safeguards, court admissibility of evidence, consultation procedures, and ethical methods."
     :breadcrumbs="[['name' => 'Frequently Asked Questions', 'url' => route('faq')]]"
     :faqs="$faqs"
 >

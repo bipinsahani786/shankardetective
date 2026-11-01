@@ -125,12 +125,12 @@
             </div>
         </div>
 
-        <!-- Strict Legal Disclaimer (DPDP Act & Google Ads Safe Transparency) -->
+        <!-- Confidentiality & Investigation Standards -->
         <div class="mt-12 rounded-2xl border border-slate-800 bg-slate-950 p-5 text-xs text-slate-400 leading-relaxed">
             <div class="flex items-start gap-3">
                 <span class="text-amber-400 text-sm mt-0.5 font-bold">&#9878;</span>
                 <div>
-                    <span class="font-bold text-slate-200 block mb-1">Strict Legal Admissibility & Ethical Compliance Statement</span>
+                    <span class="font-bold text-slate-200 block mb-1">Confidentiality & Ethical Investigation Guarantee</span>
                     {{ config('agency.legal_notice') }}
                 </div>
             </div>

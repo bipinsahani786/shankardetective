@@ -37,7 +37,7 @@
                     <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-3">
                         <div>
                             <h3 class="font-serif text-lg font-bold text-slate-900">Senior Field Verification Operative</h3>
-                            <span class="text-xs text-blue-600 font-semibold">Indore (HQ) / Bhopal / Delhi NCR &bull; Full-Time</span>
+                            <span class="text-xs text-blue-600 font-semibold">Indore (HQ) / Bhopal / Delhi NCR • Full-Time</span>
                         </div>
                         <a href="mailto:info@deepdetective.com?subject=Application:%20Field%20Verification%20Operative" class="inline-block rounded-xl bg-blue-600 px-5 py-2 text-xs font-bold uppercase text-white hover:bg-blue-700 transition-colors">
                             Apply via Email
@@ -53,14 +53,14 @@
                     <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-3">
                         <div>
                             <h3 class="font-serif text-lg font-bold text-slate-900">Cyber Forensics & OSINT Analyst</h3>
-                            <span class="text-xs text-blue-600 font-semibold">Indore / Remote &bull; Full-Time</span>
+                            <span class="text-xs text-blue-600 font-semibold">Indore / Remote • Full-Time</span>
                         </div>
                         <a href="mailto:info@deepdetective.com?subject=Application:%20Cyber%20Forensics%20Analyst" class="inline-block rounded-xl bg-blue-600 px-5 py-2 text-xs font-bold uppercase text-white hover:bg-blue-700 transition-colors">
                             Apply via Email
                         </a>
                     </div>
                     <p class="text-xs text-slate-600 leading-relaxed">
-                        Conduct digital forensics, data extraction, deleted file recovery, header inspection, and compile Section 63 BSA electronic evidence certificates. CEH or CHFI certification required.
+                        Conduct digital forensics, data extraction, deleted file recovery, header inspection, and compile court-ready electronic evidence dossiers. CEH or CHFI certification required.
                     </p>
                 </div>
 
@@ -69,7 +69,7 @@
                     <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-3">
                         <div>
                             <h3 class="font-serif text-lg font-bold text-slate-900">Legal Researcher & Asset Document Specialist</h3>
-                            <span class="text-xs text-blue-600 font-semibold">Indore &bull; Full-Time</span>
+                            <span class="text-xs text-blue-600 font-semibold">Indore • Full-Time</span>
                         </div>
                         <a href="mailto:info@deepdetective.com?subject=Application:%20Legal%20Researcher" class="inline-block rounded-xl bg-blue-600 px-5 py-2 text-xs font-bold uppercase text-white hover:bg-blue-700 transition-colors">
                             Apply via Email
